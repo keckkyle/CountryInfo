@@ -36,7 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func applicationWillTerminate(_ application: UIApplication) {
         let _ = UserDefaultsAccess.shared.setCountryList(for: CountryService.shared.countries)
-        print("applicationWillTerminate")
     }
     
 }
