@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDCountry" representedClassName="CDCountry" syncable="YES" codeGenerationType="class">
+        <attribute name="alpha2Code" optional="YES" attributeType="String"/>
+        <attribute name="area" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="borders" optional="YES" attributeType="Transformable"/>
+        <attribute name="capital" optional="YES" attributeType="String"/>
+        <attribute name="currencies" optional="YES"/>
+        <attribute name="demonym" optional="YES" attributeType="String"/>
+        <attribute name="flagIcon" optional="YES" attributeType="Binary"/>
+        <attribute name="flagImage" optional="YES" attributeType="Binary"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="languages" optional="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nativeName" optional="YES" attributeType="String"/>
+        <attribute name="population" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="region" optional="YES" attributeType="String"/>
+        <attribute name="subregion" optional="YES" attributeType="String"/>
+        <attribute name="timezones" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDCurrency"/>
+    </entity>
+    <entity name="CDCurrency" representedClassName="CDCurrency" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="CDCountry" positionX="-27" positionY="18" width="128" height="298"/>
+        <element name="CDCurrency" positionX="18" positionY="189" width="128" height="43"/>
+    </elements>
+</model>
