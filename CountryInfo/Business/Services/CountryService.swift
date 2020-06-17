@@ -24,14 +24,8 @@ class CountryService {
     //set private init function to create singleton class
     private init(){
         if let countryList = UserDefaultsAccess.shared.getCountryList() {
-            print("User Defaults Country list")
             self.countries = countryList
-//            for country in countries {
-//                print(country.name)
-//            }
-//            self.delegate.countryListUpdate()
         } else {
-            print("Get Country list from API")
             self.setCountries()
         }
     }
