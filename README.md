@@ -5,8 +5,8 @@
 
 #### Screenshots 
 ![Main Screen](https://raw.githubusercontent.com/keckkyle/CountryInfo/master/images/All.png)
-![Details Screen](/image/Nepal.png)
-![Country Name Search](/image/Country.png)
-![Region Search](/image/Region.png)
-![Capital Search](/image/Capital.png)
-![Language Search](/image/Language.png)
+![Details Screen](https://raw.githubusercontent.com/keckkyle/CountryInfo/master/image/Nepal.png)
+![Country Name Search](https://raw.githubusercontent.com/keckkyle/CountryInfo/master/image/Country.png)
+![Region Search](https://raw.githubusercontent.com/keckkyle/CountryInfo/master/image/Region.png)
+![Capital Search](https://raw.githubusercontent.com/keckkyle/CountryInfo/master/image/Capital.png)
+![Language Search](https://raw.githubusercontent.com/keckkyle/CountryInfo/master/image/Language.png)
